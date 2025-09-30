@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -p GPU48Go
+#SBATCH -p GPU48Go ## Need to be changed based on your cluster
 #SBATCH --gres=gpu
 #SBATCH -J gpu_array_test
 #SBATCH -c 4

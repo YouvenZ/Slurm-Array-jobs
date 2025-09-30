@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -p Serveurs-CPU
+#SBATCH -p Serveurs-CPU ## Need to be changed based on your cluster
 #SBATCH -J cpu_array_test
 #SBATCH -c 4
 #SBATCH --mem 8000
